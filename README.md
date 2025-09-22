@@ -6,26 +6,17 @@ It uses pandas and scikit-learn for preprocessing and data handling, and numpy f
 The goal is to demonstrate how a simple ANN can be built without deep learning frameworks, while still handling real-world network traffic data.
 ## Features
 
-Data preprocessing:
-
+Data preprocessing: 
 Drops irrelevant network traffic columns.
-
 Converts categorical features (conn_state, history) into one-hot encoded vectors.
-
 Handles missing / placeholder values ('-' replaced with 0).
-
 Normalizes features with StandardScaler.
 
 Neural Network (from scratch):
-
 One hidden layer with customizable size.
-
 Sigmoid activation functions.
-
 Forward & backward propagation.
-
 Gradient descent optimization.
-
 Training/validation split with accuracy evaluation.
 ## Dataset
 
@@ -39,7 +30,7 @@ Label: Benign or Malicious.
 
 Columns automatically dropped include technical fields (timestamps, IPs, tunnel parents, etc.).
 
-##� Future Improvements
+## Future Improvements
 
 Add more layers and activation functions.
 
